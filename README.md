@@ -1,1 +1,1 @@
-# eosio-swift-ios-example-app
+# EOSIO SDK for Swift: iOS Example App
