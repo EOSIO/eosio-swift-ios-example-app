@@ -1,0 +1,54 @@
+PODS:
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - EosioSwift (0.0.2):
+    - BigInt (~> 3.1)
+    - PromiseKit/CorePromise (~> 6.8)
+  - EosioSwiftAbieosSerializationProvider (0.0.3):
+    - EosioSwift (~> 0.0.2)
+  - EosioSwiftEcc (0.0.2):
+    - EosioSwift (~> 0.0.2)
+    - GRKOpenSSLFramework (~> 1.0)
+  - EosioSwiftSoftkeySignatureProvider (0.0.2):
+    - EosioSwift (~> 0.0.2)
+    - EosioSwiftEcc (~> 0.0.2)
+  - GRKOpenSSLFramework (1.0.2.16)
+  - PromiseKit/CorePromise (6.8.4)
+  - SipHash (1.2.2)
+
+DEPENDENCIES:
+  - EosioSwift (from `../eosio-swift`)
+  - EosioSwiftAbieosSerializationProvider (from `../eosio-swift-abieos-serialization-provider`)
+  - EosioSwiftEcc (from `../eosio-swift-ecc`)
+  - EosioSwiftSoftkeySignatureProvider (from `../eosio-swift-softkey-signature-provider`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BigInt
+    - GRKOpenSSLFramework
+    - PromiseKit
+    - SipHash
+
+EXTERNAL SOURCES:
+  EosioSwift:
+    :path: "../eosio-swift"
+  EosioSwiftAbieosSerializationProvider:
+    :path: "../eosio-swift-abieos-serialization-provider"
+  EosioSwiftEcc:
+    :path: "../eosio-swift-ecc"
+  EosioSwiftSoftkeySignatureProvider:
+    :path: "../eosio-swift-softkey-signature-provider"
+
+SPEC CHECKSUMS:
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  EosioSwift: 49f28fbbe00f383d2e9e357efc8007d137498f6f
+  EosioSwiftAbieosSerializationProvider: 32eb8fc611aa2fecafaa2f51ad1bb030c70a0f55
+  EosioSwiftEcc: 0b976459cfc86772d2df30edcf98b38adf258f12
+  EosioSwiftSoftkeySignatureProvider: 58ea9807a4f1e007e6fa5f8cc5f2071b0f141b2e
+  GRKOpenSSLFramework: 35944e317e6336b2944ad70b059d84db6b2d8532
+  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+
+PODFILE CHECKSUM: fd43d6008330bd115a4e50c412036bac06453652
+
+COCOAPODS: 1.6.1
