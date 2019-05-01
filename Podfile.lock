@@ -3,7 +3,7 @@ PODS:
     - SipHash (~> 1.2)
   - EosioSwift (0.0.2):
     - BigInt (~> 3.1)
-    - PromiseKit/CorePromise (~> 6.8)
+    - PromiseKit (~> 6.8)
   - EosioSwiftAbieosSerializationProvider (0.0.3):
     - EosioSwift (~> 0.0.2)
   - EosioSwiftEcc (0.0.2):
@@ -13,7 +13,15 @@ PODS:
     - EosioSwift (~> 0.0.2)
     - EosioSwiftEcc (~> 0.0.2)
   - GRKOpenSSLFramework (1.0.2.16)
+  - PromiseKit (6.8.4):
+    - PromiseKit/CorePromise (= 6.8.4)
+    - PromiseKit/Foundation (= 6.8.4)
+    - PromiseKit/UIKit (= 6.8.4)
   - PromiseKit/CorePromise (6.8.4)
+  - PromiseKit/Foundation (6.8.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.4):
+    - PromiseKit/CorePromise
   - SipHash (1.2.2)
 
 DEPENDENCIES:
@@ -41,7 +49,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
-  EosioSwift: 49f28fbbe00f383d2e9e357efc8007d137498f6f
+  EosioSwift: a56e20aeca993d606b3ece7bde9ef30affd0abff
   EosioSwiftAbieosSerializationProvider: 32eb8fc611aa2fecafaa2f51ad1bb030c70a0f55
   EosioSwiftEcc: 0b976459cfc86772d2df30edcf98b38adf258f12
   EosioSwiftSoftkeySignatureProvider: 58ea9807a4f1e007e6fa5f8cc5f2071b0f141b2e
