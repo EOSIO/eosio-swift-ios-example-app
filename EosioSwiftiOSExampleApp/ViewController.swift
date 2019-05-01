@@ -202,7 +202,7 @@ class ViewController: UIViewController {
         )
 
         // Add that action to the transaction.
-        transaction.actions.append(action)
+        transaction.add(action: action)
 
         // Sign and broadcast.
         // Remember, you can also get promises back with: `transaction.signAndBroadcast(.promise)`.
