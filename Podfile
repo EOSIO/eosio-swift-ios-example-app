@@ -1,4 +1,4 @@
-using_local_pods = true
+using_local_pods = false
 
 unless using_local_pods
   source 'https://github.com/EOSIO/eosio-swift-pod-specs.git'
@@ -19,8 +19,8 @@ target 'EosioSwiftiOSExampleApp' do
     pod 'EosioSwiftSoftkeySignatureProvider', :path => '../eosio-swift-softkey-signature-provider'
     pod 'EosioSwiftEcc', :path => '../eosio-swift-ecc'
   else
-    pod 'EosioSwift', '~> 0.0.2'
-    pod 'EosioSwiftAbieosSerializationProvider', '~> 0.0.3'
-    pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.0.2'
+    pod 'EosioSwift', '~> 0.0.3'
+    pod 'EosioSwiftAbieosSerializationProvider', '~> 0.0.4'
+    pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.0.3'
   end
 end
