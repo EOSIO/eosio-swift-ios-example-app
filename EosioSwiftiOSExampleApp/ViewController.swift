@@ -3,7 +3,7 @@
 //  EosioSwiftiOSExampleApp
 //
 //  Created by Brandon Fancher on 4/25/19.
-//  Copyright © 2018-2019 block.one. All rights reserved.
+//  Copyright (c) 2017-2019 block.one and its contributors. All rights reserved.
 //
 
 import UIKit
