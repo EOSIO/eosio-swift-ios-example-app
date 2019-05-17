@@ -32,18 +32,17 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BigInt
+    - EosioSwift
     - EosioSwiftAbieosSerializationProvider
     - EosioSwiftEcc
     - EosioSwiftSoftkeySignatureProvider
     - GRKOpenSSLFramework
     - PromiseKit
     - SipHash
-  https://github.com/EOSIO/eosio-swift-pod-specs.git:
-    - EosioSwift
 
 SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
-  EosioSwift: acc8e85c548daca511c7451dd585738dd2868fbf
+  EosioSwift: 300e42a5cbbe004042bdc3b8730a3a399001588a
   EosioSwiftAbieosSerializationProvider: f804fd47b5ccd1096df3c1f0796315388d9982f1
   EosioSwiftEcc: de01e14e6ea7f3c54080ca69e9b22caf450e4073
   EosioSwiftSoftkeySignatureProvider: 0cd53efe2dbdf3b524dfbccf168a9ef3d2bbb28b
