@@ -1,17 +1,17 @@
 PODS:
   - BigInt (3.1.0):
     - SipHash (~> 1.2)
-  - EosioSwift (0.1.0):
+  - EosioSwift (0.1.1):
     - BigInt (~> 3.1)
     - PromiseKit (~> 6.8)
-  - EosioSwiftAbieosSerializationProvider (0.1.0):
-    - EosioSwift (~> 0.1.0)
-  - EosioSwiftEcc (0.1.0):
-    - EosioSwift (~> 0.1.0)
+  - EosioSwiftAbieosSerializationProvider (0.1.1):
+    - EosioSwift (~> 0.1.1)
+  - EosioSwiftEcc (0.1.1):
+    - EosioSwift (~> 0.1.1)
     - GRKOpenSSLFramework (~> 1.0)
-  - EosioSwiftSoftkeySignatureProvider (0.1.0):
-    - EosioSwift (~> 0.1.0)
-    - EosioSwiftEcc (~> 0.1.0)
+  - EosioSwiftSoftkeySignatureProvider (0.1.1):
+    - EosioSwift (~> 0.1.1)
+    - EosioSwiftEcc (~> 0.1.1)
   - GRKOpenSSLFramework (1.0.2.16)
   - PromiseKit (6.8.4):
     - PromiseKit/CorePromise (= 6.8.4)
@@ -25,9 +25,9 @@ PODS:
   - SipHash (1.2.2)
 
 DEPENDENCIES:
-  - EosioSwift (~> 0.1.0)
-  - EosioSwiftAbieosSerializationProvider (~> 0.1.0)
-  - EosioSwiftSoftkeySignatureProvider (~> 0.1.0)
+  - EosioSwift (~> 0.1.1)
+  - EosioSwiftAbieosSerializationProvider (~> 0.1.1)
+  - EosioSwiftSoftkeySignatureProvider (~> 0.1.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -42,14 +42,14 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
-  EosioSwift: 300e42a5cbbe004042bdc3b8730a3a399001588a
-  EosioSwiftAbieosSerializationProvider: f804fd47b5ccd1096df3c1f0796315388d9982f1
-  EosioSwiftEcc: de01e14e6ea7f3c54080ca69e9b22caf450e4073
-  EosioSwiftSoftkeySignatureProvider: 0cd53efe2dbdf3b524dfbccf168a9ef3d2bbb28b
+  EosioSwift: d0710f56b8afc6408faf766427538f2af046c595
+  EosioSwiftAbieosSerializationProvider: 281b16b5fe0787aa1cf1c709d9ca3f5696b8ebba
+  EosioSwiftEcc: 24800b7d1577f13d64413ded2a36f6993ebf7896
+  EosioSwiftSoftkeySignatureProvider: d60802257e87ad3ff973c760a4b4620e246e485f
   GRKOpenSSLFramework: 35944e317e6336b2944ad70b059d84db6b2d8532
   PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
   SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
 
-PODFILE CHECKSUM: 4afaee3ba79a909bad450e8cfdfbc42e29606618
+PODFILE CHECKSUM: a68fb6f269269d997ea8c12df5d81b77c1183e58
 
 COCOAPODS: 1.6.1

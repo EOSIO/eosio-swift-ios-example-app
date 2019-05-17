@@ -14,8 +14,8 @@ target 'EosioSwiftiOSExampleApp' do
     pod 'EosioSwiftSoftkeySignatureProvider', :path => '../eosio-swift-softkey-signature-provider'
     pod 'EosioSwiftEcc', :path => '../eosio-swift-ecc'
   else
-    pod 'EosioSwift', '~> 0.1.0'
-    pod 'EosioSwiftAbieosSerializationProvider', '~> 0.1.0'
-    pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.1.0'
+    pod 'EosioSwift', '~> 0.1.1'
+    pod 'EosioSwiftAbieosSerializationProvider', '~> 0.1.1'
+    pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.1.1'
   end
 end
