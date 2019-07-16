@@ -1,4 +1,4 @@
-OUTPUTDIR="/Users/travis/build"
+OUTPUTDIR="/Users/travis/build/EOSIO/eosio-swift-ios-example-app"
 
 echo "starting veracode scan" && \
 java -jar vosp-api-wrappers-java-$VERACODE_WRAPPER_VERSION.jar -vid $VERACODE_API_ID -vkey $VERACODE_API_KEY \
