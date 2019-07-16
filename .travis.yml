@@ -17,5 +17,4 @@ before_install:
 
 script:
 - set -o pipefail 
-- xcodebuild -workspace EosioSwiftiOSExampleApp.xcworkspace -scheme EosioSwiftiOSExampleApp -destination platform\=iOS\ Simulator,OS\=12.0,name\=iPhone\ X build | xcpretty
 - 'if ["$XCODE_VERSION" == "10.1"]; then bash .scripts/veracode-scan.sh; fi'
