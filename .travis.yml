@@ -18,4 +18,4 @@ before_install:
 
 script:
 - set -o pipefail 
-- 'if ["$TRAVIS_OSX_IMAGE" == "10.1"]; then bash .scripts/veracode-scan.sh; fi'
+- 'if ["$TRAVIS_OSX_IMAGE" == "xcode10.1"]; then bash .scripts/veracode-scan.sh; fi'
