@@ -19,6 +19,7 @@ target 'EosioSwiftiOSExampleApp' do
     pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.1.1'
   end
 
+
   post_install do |installer|
     print "Setting the default SWIFT_VERSION to 4.2\n"
     installer.pods_project.build_configurations.each do |config|
@@ -36,6 +37,10 @@ target 'EosioSwiftiOSExampleApp' do
             target.build_configurations.each do |config|
                 config.build_settings.delete('SWIFT_VERSION')
             end
+          end
         end
+      end
     end
-    end
+    
+
+
