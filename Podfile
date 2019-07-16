@@ -38,3 +38,4 @@ target 'EosioSwiftiOSExampleApp' do
             end
         end
     end
+    end
