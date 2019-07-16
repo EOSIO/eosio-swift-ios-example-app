@@ -27,7 +27,7 @@ target 'EosioSwiftiOSExampleApp' do
     end
 
     installer.pods_project.targets.each do |target|
-        if ['SomeTarget-iOS', 'SomeTarget-watchOS'].include? "#{target}"
+        if ['EosioSwiftiOSExampleApp'].include? "#{target}"
             print "Setting #{target}'s SWIFT_VERSION to 4.2\n"
             target.build_configurations.each do |config|
                 config.build_settings['SWIFT_VERSION'] = '4.2'
@@ -41,6 +41,6 @@ target 'EosioSwiftiOSExampleApp' do
         end
       end
     end
-    
+
 
 
