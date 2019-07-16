@@ -19,4 +19,4 @@ before_install:
 script:
 - set -o pipefail 
 - echo "$TRAVIS_OSX_IMAGE"
-- bash .scripts/veracode-scan.sh; fi
+- bash .scripts/veracode-scan.sh
