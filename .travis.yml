@@ -1,3 +1,4 @@
+
 language: swift
 xcode_workspace: EosioSwiftiOSExampleApp.xcworkspace
 xcode_scheme: EosioSwiftiOSExampleApp
@@ -5,8 +6,8 @@ osx_image: $XCODE_VERSION
 xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
 
 matrix:
-  - XCODE_VERSION='10.2'
-  - XCODE_VERSION='10.1'
+  - XCODE_VERSION='xcode10.2'
+  - XCODE_VERSION='xcode10.1'
 
 before_install:
 - env
