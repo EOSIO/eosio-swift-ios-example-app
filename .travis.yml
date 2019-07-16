@@ -1,13 +1,20 @@
 language: swift
 xcode_workspace: EosioSwiftiOSExampleApp.xcworkspace
 xcode_scheme: EosioSwiftiOSExampleApp
-osx_image: xcode10.2
+osx_image: $XCODE_VERSION
 xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
+
+matrix:
+  - XCODE_VERSION='10.2'
+  - XCODE_VERSION='10.1'
+
 before_install:
 - env
 - pod repo update
 - pod install
+- wget https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/$VERACODE_WRAPPER_VERSION/vosp-api-wrappers-java-$VERACODE_WRAPPER_VERSION.jar
+
 script:
 - set -o pipefail 
 - xcodebuild -workspace EosioSwiftiOSExampleApp.xcworkspace -scheme EosioSwiftiOSExampleApp -destination platform\=iOS\ Simulator,OS\=12.0,name\=iPhone\ X build | xcpretty
-
+- 'if ["$XCODE_VERSION" == "10.1"]; then bash .scripts/veracode-scan.sh; fi'
