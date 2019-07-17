@@ -20,18 +20,17 @@ target 'EosioSwiftiOSExampleApp' do
   end
 
 
-  post_install do |installer|
-    print "Setting the default SWIFT_VERSION to 4.2\n"
-    installer.pods_project.build_configurations.each do |config|
-        config.build_settings['SWIFT_VERSION'] = '4.2'
-    end
 
-    installer.pods_project.targets.each do |target|
-      print "Setting #{target}'s SWIFT_VERSION to Undefined (Xcode will automatically resolve)\n"
-      target.build_configurations.each do |config|
-          config.build_settings.delete('SWIFT_VERSION')
-            end
-        end
+
+    post_install do |installer|
+      installer.pods_project.targets.each do |target|
+        installer.pods_project.build_configurations.each do |config|
+          config.build_settings['SWIFT_VERSION'] = '4.2'
+        target.build_configurations.each do |config|
+          config.build_settings['SWIFT_VERSION'] = '4.2'
+       end
+       end
+       end
       end
     end
 
