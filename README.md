@@ -3,7 +3,7 @@
 
 
 [![Software License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/EOSIO/eosio-swift-ios-example-app/blob/master/LICENSE)
-[![Swift 4.2](https://img.shields.io/badge/Language-Swift_4.2-orange.svg)](https://swift.org)
+[![Swift 5.0](https://img.shields.io/badge/Language-Swift_5.0-orange.svg)](https://swift.org)
 ![](https://img.shields.io/badge/Deployment%20Target-iOS%2012-blue.svg)
 
 The EOSIO SDK for Swift: iOS Example App is a simple application demonstrating how to integrate with EOSIO-based blockchains using [EOSIO SDK for Swift](https://github.com/EOSIO/eosio-swift). The application does two things: fetches your account token balance and pushes a transfer action.
