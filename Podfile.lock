@@ -1,36 +1,34 @@
 PODS:
-  - BigInt (3.1.0):
-    - SipHash (~> 1.2)
-  - EosioSwift (0.1.1):
-    - BigInt (~> 3.1)
+  - BigInt (5.0.0)
+  - EosioSwift (0.2.0):
+    - BigInt (~> 5.0)
     - PromiseKit (~> 6.8)
-  - EosioSwiftAbieosSerializationProvider (0.1.1):
-    - EosioSwift (~> 0.1.1)
-  - EosioSwiftEcc (0.1.1):
-    - EosioSwift (~> 0.1.1)
-    - GRKOpenSSLFramework (~> 1.0)
-  - EosioSwiftSoftkeySignatureProvider (0.1.1):
-    - EosioSwift (~> 0.1.1)
-    - EosioSwiftEcc (~> 0.1.1)
-  - GRKOpenSSLFramework (1.0.2.16)
-  - PromiseKit (6.8.4):
-    - PromiseKit/CorePromise (= 6.8.4)
-    - PromiseKit/Foundation (= 6.8.4)
-    - PromiseKit/UIKit (= 6.8.4)
-  - PromiseKit/CorePromise (6.8.4)
-  - PromiseKit/Foundation (6.8.4):
+  - EosioSwiftAbieosSerializationProvider (0.2.0):
+    - EosioSwift (~> 0.2.0)
+  - EosioSwiftEcc (0.2.0):
+    - EosioSwift (~> 0.2.0)
+    - GRKOpenSSLFramework (= 1.0.2.19)
+  - EosioSwiftSoftkeySignatureProvider (0.2.0):
+    - EosioSwift (~> 0.2.0)
+    - EosioSwiftEcc (~> 0.2.0)
+  - GRKOpenSSLFramework (1.0.2.19)
+  - PromiseKit (6.11.0):
+    - PromiseKit/CorePromise (= 6.11.0)
+    - PromiseKit/Foundation (= 6.11.0)
+    - PromiseKit/UIKit (= 6.11.0)
+  - PromiseKit/CorePromise (6.11.0)
+  - PromiseKit/Foundation (6.11.0):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.8.4):
+  - PromiseKit/UIKit (6.11.0):
     - PromiseKit/CorePromise
-  - SipHash (1.2.2)
 
 DEPENDENCIES:
-  - EosioSwift (~> 0.1.1)
-  - EosioSwiftAbieosSerializationProvider (~> 0.1.1)
-  - EosioSwiftSoftkeySignatureProvider (~> 0.1.1)
+  - EosioSwift (~> 0.2.0)
+  - EosioSwiftAbieosSerializationProvider (~> 0.2.0)
+  - EosioSwiftSoftkeySignatureProvider (~> 0.2.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - BigInt
     - EosioSwift
     - EosioSwiftAbieosSerializationProvider
@@ -38,18 +36,16 @@ SPEC REPOS:
     - EosioSwiftSoftkeySignatureProvider
     - GRKOpenSSLFramework
     - PromiseKit
-    - SipHash
 
 SPEC CHECKSUMS:
-  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
-  EosioSwift: d0710f56b8afc6408faf766427538f2af046c595
-  EosioSwiftAbieosSerializationProvider: 281b16b5fe0787aa1cf1c709d9ca3f5696b8ebba
-  EosioSwiftEcc: 24800b7d1577f13d64413ded2a36f6993ebf7896
-  EosioSwiftSoftkeySignatureProvider: d60802257e87ad3ff973c760a4b4620e246e485f
-  GRKOpenSSLFramework: 35944e317e6336b2944ad70b059d84db6b2d8532
-  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
-  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
+  EosioSwift: 5d8585bd3a7276c02fc2e894d67702c833c2585a
+  EosioSwiftAbieosSerializationProvider: a4352908faa121fc75982735b17f7582f4d44b67
+  EosioSwiftEcc: 1eb995ee22c2824f50ae75170fd0d115f81c1340
+  EosioSwiftSoftkeySignatureProvider: 787f98770c47f095e8ef8605e28be5c1a1eace99
+  GRKOpenSSLFramework: 4abc733a8fcbc37060619a86a54202d2938dd70e
+  PromiseKit: e4863d06976e7dee5e41c04fc7371c16b3600292
 
-PODFILE CHECKSUM: 400948e9d0145f67db3fa9034c464b21d0a6ef2a
+PODFILE CHECKSUM: 1752b2ed347ec7a3e96e9b068084c8cfe007aa88
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4
