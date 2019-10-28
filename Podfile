@@ -1,4 +1,4 @@
-using_local_pods = false
+using_local_pods = ENV['USE_LOCAL_PODS'] == 'true' || false
 
 platform :ios, '12.0'
 
@@ -14,8 +14,8 @@ target 'EosioSwiftiOSExampleApp' do
     pod 'EosioSwiftSoftkeySignatureProvider', :path => '../eosio-swift-softkey-signature-provider'
     pod 'EosioSwiftEcc', :path => '../eosio-swift-ecc'
   else
-    pod 'EosioSwift', '~> 0.1.1'
-    pod 'EosioSwiftAbieosSerializationProvider', '~> 0.1.1'
-    pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.1.1'
+    pod 'EosioSwift', '~> 0.2.0'
+    pod 'EosioSwiftAbieosSerializationProvider', '~> 0.2.0'
+    pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.2.0'
   end
 end
