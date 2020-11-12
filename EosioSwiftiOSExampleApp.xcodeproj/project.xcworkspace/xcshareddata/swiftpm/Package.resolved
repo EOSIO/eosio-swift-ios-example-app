@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BigInt",
+        "repositoryURL": "https://github.com/attaswift/BigInt.git",
+        "state": {
+          "branch": null,
+          "revision": "e1f28276687d7661cbb2754771bd9fc281784e32",
+          "version": "5.2.0"
+        }
+      },
+      {
+        "package": "EosioSwift",
+        "repositoryURL": "https://github.com/EOSIO/eosio-swift",
+        "state": {
+          "branch": "develop",
+          "revision": "6516345865d9e43064274ea20667f530debf98b3",
+          "version": null
+        }
+      },
+      {
+        "package": "PMKFoundation",
+        "repositoryURL": "https://github.com/PromiseKit/Foundation",
+        "state": {
+          "branch": null,
+          "revision": "1a276e598dac59489ed904887e0740fa75e571e0",
+          "version": "3.3.4"
+        }
+      },
+      {
+        "package": "PromiseKit",
+        "repositoryURL": "https://github.com/mxcl/PromiseKit",
+        "state": {
+          "branch": null,
+          "revision": "aea48ea1855f5d82e2dffa6027afce3aab8f3dd7",
+          "version": "6.13.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
