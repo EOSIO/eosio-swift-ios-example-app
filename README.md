@@ -3,7 +3,7 @@
 
 
 [![Software License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/EOSIO/eosio-swift-ios-example-app/blob/master/LICENSE)
-[![Swift 5.0](https://img.shields.io/badge/Language-Swift_5.0-orange.svg)](https://swift.org)
+[![Swift 5.2](https://img.shields.io/badge/Language-Swift_5.2-orange.svg)](https://swift.org)
 ![](https://img.shields.io/badge/Deployment%20Target-iOS%2012-blue.svg)
 
 The EOSIO SDK for Swift: iOS Example App is a simple application demonstrating how to integrate with EOSIO-based blockchains using [EOSIO SDK for Swift](https://github.com/EOSIO/eosio-swift). The application does two things: fetches your account token balance and pushes a transfer action.
@@ -26,8 +26,8 @@ The EOSIO SDK for Swift: iOS Example App is a simple application demonstrating h
 
 ## Requirements
 
-* Xcode 10 or higher
-* CocoaPods 1.5.3 or higher
+* Xcode 11 or higher
+* Swift Package Manager (SPM) 5.2 or higher
 * For iOS, iOS 12+
 
 ## Installation
@@ -35,7 +35,7 @@ The EOSIO SDK for Swift: iOS Example App is a simple application demonstrating h
 To get the example application up and running:
 
 1. Clone this repo: `git clone https://github.com/EOSIO/eosio-swift-ios-example-app.git`
-1. Run `pod install`.
+1. The project is already configured to use Swift Package Manager for dependencies and will download them automatically.
 1. At the top of `ViewController.swift`, supply values for the node URL, private key(s), `from` account, `to` account, `currencySymbol`, `quantity` and anything else you wish to adjust.
 1. Run the app!
 
@@ -52,8 +52,8 @@ To do this, we're using a few libraries and providers, in concert:
 
 * [EOSIO SDK for Swift](https://github.com/EOSIO/eosio-swift): The core EOSIO SDK for Swift library
 * [Default RPC Provider](https://github.com/EOSIO/eosio-swift/tree/master#rpc-using-the-default-rpc-provider): The default RPC provider implementation in the core library
-* [ABIEOS Serialization Provider](https://github.com/EOSIO/eosio-swift-abieos-serialization-provider): A pluggable serialization provider for EOSIO SDK for Swift using ABIEOS (for transaction and action conversion between JSON and binary data representations)
-* [Softkey Signature Provider](https://github.com/EOSIO/eosio-swift-softkey-signature-provider): An example pluggable signature provider for EOSIO SDK for Swift for signing transactions using in-memory keys (not for production use)
+* [ABIEOS Serialization Provider](https://github.com/EOSIO/eosio-swift/tree/master#abieos-serialization-provider-usage): A pluggable serialization provider for EOSIO SDK for Swift using ABIEOS (for transaction and action conversion between JSON and binary data representations)
+* [Softkey Signature Provider](https://github.com/EOSIO/eosio-swift/tree/master#softkey-signature-provider-usage): An example pluggable signature provider for EOSIO SDK for Swift for signing transactions using in-memory keys (not for production use)
 
 For a more comprehensive list of available provider implementations, see [EOSIO SDK for Swift - Provider Protocol Architecture](https://github.com/EOSIO/eosio-swift/tree/master#provider-protocol-architecture).
 
