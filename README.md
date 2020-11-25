@@ -1,5 +1,5 @@
-![Swift Logo](/img/swift-logo.png)
-# EOSIO SDK for Swift: iOS Example App ![EOSIO Alpha](https://img.shields.io/badge/EOSIO-Alpha-blue.svg)
+![Swift Logo](https://raw.githubusercontent.com/EOSIO/eosio-swift-ios-example-app/master/img/swift-logo.png)
+# EOSIO SDK for Swift: iOS Example App
 
 
 [![Software License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/EOSIO/eosio-swift-ios-example-app/blob/master/LICENSE)
@@ -11,9 +11,9 @@ The EOSIO SDK for Swift: iOS Example App is a simple application demonstrating h
 *All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.*
 
 <p align="center">
-  <img src="/img/cap1.png" width="200" />
+  <img src="https://raw.githubusercontent.com/EOSIO/eosio-swift-ios-example-app/master/img/cap1.png" width="200" />
   <span> </span>
-  <img src="/img/cap2.png" width="200" />
+  <img src="https://raw.githubusercontent.com/EOSIO/eosio-swift-ios-example-app/master/img/cap2.png" width="200" />
 </p>
 
 ## Contents
